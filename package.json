@@ -1,7 +1,7 @@
 {
   "name": "golub",
   "version": "0.0.0",
-  "homepage": "http://komplektdim.if.ua",
+  "homepage": "https://sergiy21.github.io/komplektdim",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
