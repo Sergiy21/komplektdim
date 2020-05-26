@@ -52,7 +52,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: 'komplektdim', component: _components_layouts_main_main_component__WEBPACK_IMPORTED_MODULE_4__["MainComponent"], children: [
+    { path: '', component: _components_layouts_main_main_component__WEBPACK_IMPORTED_MODULE_4__["MainComponent"], children: [
             { path: '', pathMatch: 'full', component: _components_router_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
             { path: 'products', pathMatch: 'full', component: _components_router_products_products_component__WEBPACK_IMPORTED_MODULE_8__["ProductsComponent"] },
             { path: 'contact-us', pathMatch: 'full', component: _components_router_contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_7__["ContactUsComponent"] },
