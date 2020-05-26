@@ -1,7 +1,7 @@
 {
   "name": "golub",
   "version": "0.0.0",
-  "homepage": "https://sergiy21.github.io/golyb.github.io",
+  "homepage": "http://komplektdim.if.ua",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
