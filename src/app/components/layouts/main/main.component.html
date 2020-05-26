@@ -1,0 +1,22 @@
+
+<mat-sidenav-container class="example-container" autosize [hasBackdrop]="true">
+    <mat-sidenav #drawer class="mobile-munu" mode="over" [fixedInViewport]="true">
+        <ul class="nav-menu">
+            <li><a routerLink="/" routerLinkActive="active">home</a></li>
+            <li><a routerLink="/products" routerLinkActive="active">Products</a></li>
+            <li><a routerLink="/contact-us" routerLinkActive="active">Contact Us</a></li>
+        </ul>
+        <div class="contact">
+            <a href="tel:+38(067)000000000">+38(067)0000 000</a>
+            <span class="text">Oтдел продаж!</span>
+        </div>
+    </mat-sidenav>
+
+    <main class="page">
+        <app-header (toggle)="drawer.toggle()"></app-header>
+
+        <router-outlet></router-outlet>
+
+        <app-footer></app-footer>
+    </main>
+</mat-sidenav-container>

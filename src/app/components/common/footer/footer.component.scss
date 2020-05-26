@@ -1,0 +1,16 @@
+.footer{
+  background: #1c1c1c;
+  padding: 10px 0;
+
+  .copyright{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 0;
+    color: #72777d;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: right;
+  }
+}

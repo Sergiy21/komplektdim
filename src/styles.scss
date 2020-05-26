@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+//@import "~bootstrap";
+
+body{
+  color: #3c3e45;
+  font-family:  "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.container{
+  @media screen and (min-width: 992px) {
+    max-width: 1210px;
+  }
+}
+
+.title-section{
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #3c3e45;
+  font-size: 28px;
+  text-align: center;
+}

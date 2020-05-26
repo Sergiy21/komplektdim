@@ -1,0 +1,17 @@
+<section class="color-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="title-section">Разновидность цветовой гаммы RAINGUARD</h3>
+
+        <ul class="color-list">
+          <li *ngFor="let item of colors" [style.background]="item.color" [ngClass]="{'white': item.white}">
+            {{item.title}}
+          </li>
+        </ul>
+
+        <p class="text">Водосточные системы</p>
+      </div>
+    </div>
+  </div>
+</section>
