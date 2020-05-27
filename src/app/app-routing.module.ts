@@ -21,7 +21,7 @@ const routes: Routes = [
     HomeComponent,
   ],
     imports: [
-        RouterModule.forRoot(routes),
+        RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'}),
         ColorsModule,
         ContactModule
     ],

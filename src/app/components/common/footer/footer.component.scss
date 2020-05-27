@@ -2,6 +2,12 @@
   background: #1c1c1c;
   padding: 10px 0;
 
+  .logo{
+    img{
+      height: 50px;
+    }
+  }
+
   .copyright{
     font-size: 12px;
     line-height: 20px;
@@ -11,6 +17,8 @@
   }
 
   @media screen and (min-width: 768px) {
-    text-align: right;
+    .copyright{
+      text-align: right;
+    }
   }
 }

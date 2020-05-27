@@ -14,19 +14,19 @@ export class ProductsComponent implements OnInit {
 
   public products = [
     {
-      title: 'Заглушка желоба универсальная',
+      title: 'Заглушка жолоба',
       img: '../../../../assets/img/products/11-768x767.jpg'
     },
     {
-      title: 'Соединитель желоба',
+      title: 'З’єднувач жолоба',
       img: '../../../../assets/img/products/soedinital_zheloba-300x244.png'
     },
     {
-      title: 'Лейка',
+      title: 'Лійка',
       img: '../../../../assets/img/products/leika.jpg'
     },
     {
-      title: 'Колено',
+      title: 'Коліно',
       img: '../../../../assets/img/products/koleno.jpg'
     },
     {
@@ -38,39 +38,39 @@ export class ProductsComponent implements OnInit {
       img: '../../../../assets/img/products/truba-300x173.png'
     },
     {
-      title: 'Желоб 1 м',
+      title: 'Жолоб 1 м',
       img: '../../../../assets/img/products/rinva-300x122.png'
     },
     {
-      title: 'Желоб 4 м',
+      title: 'Жолоб 4 м',
       img: '../../../../assets/img/products/rinva-300x122.png'
     },
     {
-      title: 'Внутренний угол желоба 90°',
+      title: 'Внутрішній кут жолоба 90°',
       img: '../../../../assets/img/products/ugol_vnutri-300x158.png'
     },
     {
-      title: 'Внешний угол желоба 90°',
+      title: 'Зовнішній кут жолоба 90°',
       img: '../../../../assets/img/products/vnesh_ugol-300x158.png'
     },
     {
-      title: 'Крюк торцевой',
+      title: 'Гак торцевий',
       img: '../../../../assets/img/products/torcevoi.jpg'
     },
     {
-      title: 'Крюк длинный',
+      title: 'Гак довгий',
       img: '../../../../assets/img/products/dlinnyi-177x300.jpg'
     },
     {
-      title: 'Держатель трубы под камень',
+      title: 'Тримач труби під камінь',
       img: '../../../../assets/img/products/derzh_kamin.jpg'
     },
     {
-      title: 'Держатель трубы под дерево',
+      title: 'Тримач труби під дерево',
       img: '../../../../assets/img/products/derzh_derevo.jpg'
     },
     {
-      title: 'Сливное колено',
+      title: 'Зливне коліно',
       img: '../../../../assets/img/products/sliv.jpg'
     }
   ];

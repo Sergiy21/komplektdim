@@ -9,39 +9,39 @@ export class ColorsComponent implements OnInit {
 
   public colors = [
     {
-      title: 'RAL 3005 — красное вино',
+      title: 'RAL 3005 — Вишневий',
       color: '#8a1124'
     },
     {
-      title: 'RAL 3009 — красный',
+      title: 'RAL 3009 — Цеглясто червоний',
       color: '#952124'
     },
     {
-      title: 'RAL 7024 — графит',
+      title: 'RAL 7024 — Графітний',
       color: '#29363e'
     },
     {
-      title: 'RAL 6020 — военный зеленый',
+      title: 'RAL 6020 — Зелений',
       color: '#4a4e3f'
     },
     {
-      title: 'RAL 8004 — кирпичный',
+      title: 'RAL 8004 — Цеглястий',
       color: '#b84e38'
     },
     {
-      title: 'RAL 8017 — молочный шоколад',
+      title: 'RAL 8017 — Світло Коричневий',
       color: '#442e23'
     },
     {
-      title: 'RAL 8019 — темный шоколад',
+      title: 'RAL 8019 — Темно коричневий',
       color: '#322a27'
     },
     {
-      title: 'RAL 9005 — черный (антрацит)',
+      title: 'RAL 9005 — Чорний',
       color: '#121212'
     },
     {
-      title: 'RAL 9010 — чистый белый',
+      title: 'RAL 9010 — Білий',
       color: '#fff',
       white: true
     },
